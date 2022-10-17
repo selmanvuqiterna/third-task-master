@@ -95,3 +95,15 @@
     color: #4285F4;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 800px) {
+    .modalContainer{
+        width: 400px;
+        height:600px;
+    }
+
+    .right-side{
+        padding-left: 100px;
+        display: flex;
+      }
+  }
