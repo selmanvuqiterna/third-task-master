@@ -1,0 +1,97 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer{
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    
+    
+  }
+  
+  .fontColor{
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bcgColor{
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btnColor{
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btnboxColor{
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btnMoColor{
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .right-side{
+    padding-left: 400px;
+    display: flex;
+  }
+  
+  
+  .box{
+    width: 40px;
+    height: 20px;
+    background-color: blue;
+    margin-top: 2px;
+    margin-left: 30px;
+    border-radius: 5px;
+  }
+  
+  
+  .saveButton{
+    margin-top: 30px;
+    margin-right: 30px;
+    background-color: #4285F4;
+    width: 60px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .cancelButton{
+    margin-top: 30px;
+    background-color: transparent;
+    width: 60px;
+    height: 30px;
+    color: black;
+    border: grey solid 1px;
+    border-radius: 5px;
+  }
+  
+  .saveButton :hover{
+    background-color: black;
+  }
+  
+  
+  .title{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .title>h5{
+    color: #4285F4;
+    cursor: pointer;
+  }
