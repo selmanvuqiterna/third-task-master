@@ -38,7 +38,7 @@ function Modal({ closeModal }) {
             <div className="btnMoColor">
             <p>Button Mouseover Color</p>
               <div className="right-side">
-              <p>#4444</p>
+              <p>#4444 hello guys</p>
               <div className='box'></div>
               </div>
             </div>
